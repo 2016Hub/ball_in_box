@@ -1,18 +1,4 @@
 # ball_in_box
 
-NOTICE!
-
-Please run the following
-
-    git clone https://github.com/pipehappy1/ball_in_box.git
-    cd ball_in_box
-    bash test_docker_image.sh YOUR_ID
-    
-to verify your script.
-
-
-conda  env create --file environment.yml
-
-conda install --file requirements.txt -y
-
-pip install -e .
+ball_in_box是由MillerSharp、2016Hub以及xzhchp共同完成并分别提交
+由于一开始是在ballinbox文件夹中，为了便于老师检查，新建了一个文件夹ball_in_box汇总三人的成果
