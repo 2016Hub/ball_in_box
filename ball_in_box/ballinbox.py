@@ -7,9 +7,9 @@ Result = []
 def pointgetter():
     i = 0
     j = 0
-    for i in range (1,1000):
-        for j in range (1,1000):
-            pointlist.append((-1+i*0.002,-1+j*0.002))
+    for i in range (1,5000):
+        for j in range (1,5000):
+            pointlist.append((-1+i*0.0004,-1+j*0.0004))
 
 def distance(x, y, a, b):
 

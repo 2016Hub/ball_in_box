@@ -1,1 +1,14 @@
+﻿# user story
 
+tags: ball_in_box
+
+## user stories
+
+The user can find the optimal value of radius and position which maximizes and sum radius^2. 
+
+ 1. The user can get a limited square whose length of side is bounded by [-1,1].
+ 2. In the square, there are some small dots which act as blocks at the certain position.
+ 3. The user can get the exact number of ballons.
+ 4. The user can obtain the maximum radius and the position of the ballons which do not overlap with those blocks.
+ 5. The user can view the sum of squares of the variable radius.
+ 6. The area of all circles has maximum value.
