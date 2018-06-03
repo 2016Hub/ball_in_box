@@ -1,15 +1,18 @@
+# -- coding: utf-8 --
 import math
 import random
 
+d=2500
+eps=2.0/d
 pointlist = []
 R = []
 Result = []
 def pointgetter():
     i = 0
     j = 0
-    for i in range (1,5000):
-        for j in range (1,5000):
-            pointlist.append((-1+i*0.0004,-1+j*0.0004))
+    for i in range (1,d):
+        for j in range (1,d):
+            pointlist.append((-1+i*eps,-1+j*eps))
 
 def distance(x, y, a, b):
 
